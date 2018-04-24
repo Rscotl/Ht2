@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HomeTrainer2</string>
+    <string name="Successful_Login_Message">This field is required</string>
+    <string name="Unsuccessful_Login_Message">This field is required</string>
+    <string name="UserName">jdoe</string>
+    <string name="Password">welcome1</string>
+    <string name="openner"> Welcome to Home Trainer2 where Our motto Is "Always take the first STEP!"</string>
+    <string name="Login">login</string>
+    <string name="personName">Name</string>
+    <string name="userPassword">Password</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="address">address</string>
+    <string name="complete">Finish</string>
+    <string name="phone">Phone Number</string>
+    <string name="next">Next</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

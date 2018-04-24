@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bignerdranch.android.hometrainer2.CameraActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="344dp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="32dp"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:background="@color/colorPrimary"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="415dp"
+        android:layout_below="@+id/image"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/complete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageButton"
+        android:layout_marginEnd="42dp"
+        android:text="@string/complete"/>
+</RelativeLayout>
